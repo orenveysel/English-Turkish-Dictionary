@@ -96,11 +96,11 @@ focusBorderImage = PhotoImage("focusBorderImage", data=focusBorderImageData)
 # panel.pack(side = "bottom", fill = "both", expand = "yes")
 
 style.element_create("RoundedFrame",
-                     "image", borderImage,
-                     ("focus", focusBorderImage),
-                     border=16, sticky="nsew")
+                    "image", borderImage,
+                    ("focus", focusBorderImage),
+                    border=16, sticky="nsew")
 style.layout("RoundedFrame",
-             [("RoundedFrame", {"sticky": "nsew"})])
+            [("RoundedFrame", {"sticky": "nsew"})])
 
 
 w = 600  # width for the Tk app
